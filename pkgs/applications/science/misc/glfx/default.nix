@@ -1,4 +1,4 @@
-with import <nixpkgs> {};
+{stdenv, cmake, glew}:
 
 # This avoids typing `pkgs.` before each package name.
 

@@ -18890,6 +18890,10 @@ in
 
   qtcurve = libsForQt5.callPackage ../misc/themes/qtcurve {};
 
+  glfx = callPackage ../applications/science/misc/glfx { };
+
+  qcustomplot = callPackage ../applications/science/misc/qcustomplot { };
+
   rssguard = libsForQt5.callPackage ../applications/networking/feedreaders/rssguard { };
 
   scudcloud = callPackage ../applications/networking/instant-messengers/scudcloud { };
